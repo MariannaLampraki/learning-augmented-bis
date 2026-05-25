@@ -3,6 +3,8 @@ This is a project from my university, where we used a regression to make the Bin
 
 The project was about reading a file with temperature and humidity measurements (where each entry contained one timestamp and then multiple measurements) and we had to use Binary Interpolation Search to find an entry quickly when given the timestamp. Our professors encouraged us to use the scikit-learn python module to pick a regression and train it with data they had already provided.
 
+The code file contains comments (in Greek) explaining the code. We added them when we sent the project for review, so if you know Greek you can also read them to understand the code better.
+
 ---
 ### Disclaimers:
 #### I am not a genius on this field, so please be patient with me
@@ -13,12 +15,12 @@ The project was about reading a file with temperature and humidity measurements 
 ---
 
 ### Project Details
-**Regression Picked:** Decision Tree Regressor
+**Oracle Model Picked:** Decision Tree Regressor
 
-**Data Given to Regression:** [Some data here]*
+**Data Given to the Oracle:** The sine and cosine values of the month, day (numbered in the month) and hour (in 24hour format) of the timestamps*
 
-**Data Asked By Regression:** [Some data here]
+**Data Asked from the Oracle:** Index of the respective timestamp in the data structure
 
-\* See [the project report]() for a more detailed explanation as to why we picked this kind of data for the input.
+\* See [the project report](https://github.com/MariannaLampraki/learning-augmented-bis/wiki/Project-Report-in-English-(Automatically-Translated)) for a more detailed explanation as to why we picked this kind of data for the input.
 
 ---
